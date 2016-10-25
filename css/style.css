@@ -1,0 +1,265 @@
+/** Global CSS
+*/
+body, html {
+    margin-top: 30px;
+    margin-bottom: 55px;
+    background-color: #335c7d;
+}
+
+.page-header {
+    font-family: 'Titillium Web';
+    color: #f67280;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+@media (min-width: 62em) {
+    body, html {
+        background-color: #355c7d;
+        margin-bottom: 25px;
+    }
+    .card-block {
+        margin-top: 75px;
+    }
+    #home-page-main-text {
+        max-width: 90%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    #countdown-clock {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/** Top Navbar - Mobile SideBar - Bottom Navbar
+*/
+.navbar {
+    height: 50px;
+}
+
+.side-nav {
+    overflow-x: hidden;
+}
+.side-nav p {
+    color: #f67280;
+}
+
+a.button-collapse .fa {
+    margin-top: 10px;
+}
+
+#register-button {
+    font-family: 'Consolas';
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.event-details {
+    font-family: 'Titillium Web';
+    color: #355c7d;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 62em) {
+    .navbar {
+        height: 70px;
+    }
+    .navbar-brand {
+        font-size: 2em;
+    }
+    .nav-top-link {
+        margin-top: 10px;
+        color: #355c7d !important;
+        text-transform: uppercase;
+    }
+    a.nav-link:hover {
+        color: #f67280 !important;
+    }
+    #register-button {
+        margin-top: 10px;
+    }
+}
+
+/** Registration Navbar (Right Navbar)
+*/
+#registration-links {
+    padding-top: 25px;
+}
+
+/** Custom HR Element Helpers
+*/
+.hr-page-header {
+    border-top: 10px double #6c5b7b;
+    max-width: 400px;
+}
+.hr-custom-tan {
+    border-top: 2px solid #f8b195;
+    max-width: 150px;
+}
+.hr-custom-pink {
+    border-top: 2px solid #c06c84;
+    max-width: 150px;
+}
+
+/** Margin Classes
+*/
+.no-margin {
+    margin: 0 !important;
+}
+.no-margin-x {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.no-margin-y {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.no-margin-top {
+    margin-top: 0 !important;
+}
+.no-margin-right {
+    margin-right: 0 !important;
+}
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+.no-margin-left {
+    margin-left: 0 !important;
+}
+
+/** Padding Classes
+*/
+.no-padding {
+    padding: 0 !important;
+}
+.no-padding-x {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.no-padding-y {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.no-padding-top {
+    padding-top: 0 !important;
+}
+.no-padding-right {
+    padding-right: 0 !important;
+}
+.no-padding-bottom {
+    padding-bottom: 0 !important;
+}
+.no-padding-left {
+    padding-left: 0 !important;
+}
+
+
+/** Schedule Page
+*/
+.dl-horizontal {
+    padding-top: 15px;
+}
+
+@media (min-width: 62em) {
+    .dl-horizontal {
+        padding-top: 25px;
+    }
+    #schedule-card-block {
+        min-height: 550px;
+    }
+}
+
+/*
+.nav-pills .nav-link.active {
+    border-color: #6c5b7b;
+}*/
+
+
+/** FAQ Page
+*/
+#faq-main-text {
+    padding-top: 25px;
+}
+#faq-section {
+
+}
+.faq-question {
+    margin-bottom: 20px;
+}
+.faq-headers {
+    font-family: 'Titillium Web';
+    font-weight: bolder;
+    color: #c06c84;
+    font-weight: 600;
+    letter-spacing: .75px;
+}
+.faq-content {
+    font-weight: 300;
+}
+.blockquote {
+    border-color: #f8b195;
+    padding-top: 5px;
+}
+.faq-emphasis {
+    color: #355c7d;
+}
+
+@media (min-width: 62em) {
+    .faq-question {
+        margin-bottom: 50px;
+    }
+}
+
+
+/** Contact Modal
+*/
+.contact-form-headers {
+    font-family: 'Titillium Web';
+    color: #355c7d;
+    font-weight: 800;
+}
+.social-list {
+    box-shadow: none;
+}
+
+/** RowdyHacks Countdown Timer
+*/
+.countdown-container {
+    position: relative;
+}
+
+.clock-item .inner {
+    height: 0px;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.clock-canvas {
+    border-radius: 50%;
+    height: 0px;
+    padding-bottom: 100%;
+}
+
+.text-header {
+    color: #f67280;
+}
+
+.text {
+    color: #355c7d;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+.text .val {
+    font-size: 30px;
+}
+
+.text .type-time {
+    font-size: 20px;
+}

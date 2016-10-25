@@ -1,0 +1,58 @@
+/** colors.css
+
+    Here you will find classes for changing the font color and background color
+    to one of the default template colors
+**/
+
+/** Use these when needing to change the font color
+*/
+.rh-tan-text {
+    color: #f8b195 !important;
+}
+.rh-peach-text {
+    color: #f67280 !important;
+}
+.rh-pink-text {
+    color: #c06c84 !important;
+}
+.rh-purple-text {
+    color: #6c5b7b !important;
+}
+.rh-blue-text {
+    color: #355c7d !important;
+}
+
+/** Use these when needing to change the background color
+*/
+.rh-tan-bg {
+    background-color: #f8b195 !important;
+}
+.rh-peach-bg {
+    background-color: #f67280 !important;
+}
+.rh-pink-bg {
+    background-color: #c06c84 !important;
+}
+.rh-purple-bg {
+    background-color: #6c5b7b !important;
+}
+.rh-blue-bg {
+    background-color: #355c7d !important;
+}
+
+/** Use these when needing to change the color of a rounded button
+*/
+.rh-peach-rounded-outline {
+    border-radius: 10em;
+    border: 2px solid #f67280;
+    color: #c06c84;
+}
+.rh-peach-rounded-outline:hover, .rh-peach-rounded-outline:focus {
+    background-color: transparent;
+    color: #c06c84;
+}
+
+
+p {
+    font-color: #355c7d !important;
+}
